@@ -6,9 +6,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
+
         <meta name="description" content="{{ $page->description }}">
+
         <title>{{ $page->title }}</title>
+        
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body>
         @yield('body')
