@@ -1,4 +1,4 @@
-# vue-tailwindcss
+# jigsaw-tailwindcss
 
 ## Project setup
 ```
