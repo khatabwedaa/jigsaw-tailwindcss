@@ -1,6 +1,6 @@
-# jigsaw-tailwindcss
+## Jigsaw Tailwindcss
 
-## Project setup
+### Project setup
 ```
 composer install && npm install
 ```
@@ -14,6 +14,3 @@ npm run watch
 ```
 npm run production
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
