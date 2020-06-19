@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Learn Awesome Components',
+    'title' => 'Jigsaw Tailwindcss',
     'description' => '',
     'collections' => [],
 ];
