@@ -1,6 +1,6 @@
 module.exports = {
   purge: [
-    './source/*.blade.php'
+    './source/**/*.blade.php'
   ],
   theme: {
     extend: {},
