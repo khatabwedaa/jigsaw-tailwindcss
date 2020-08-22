@@ -1,16 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<h1>Hello world!</h1>
-
-<div x-data="{ open: false }">
-    <button @click="open = true">Open Dropdown</button>
-
-    <ul
-        x-show="open"
-        @click.away="open = false"
-    >
-        Dropdown Body
-    </ul>
+<div class="flex items-center justify-center h-screen">
+    <h1 class="text-3xl font-semibold text-gray-800">Hello world!</h1>
 </div>
 @endsection
