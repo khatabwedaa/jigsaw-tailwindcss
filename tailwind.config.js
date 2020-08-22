@@ -1,9 +1,12 @@
 module.exports = {
-  purge: [
-    './source/**/*.blade.php'
-  ],
+  purge: ['./source/**/*.blade.php'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto'],
+        'tajawal': ['Tajawal'],
+      },
+    },
   },
   variants: {},
   plugins: [

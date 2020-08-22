@@ -10,12 +10,15 @@
         <meta name="description" content="{{ $page->description }}">
 
         <title>{{ $page->title }}</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal:300,400,500,700&display=swap&subset=arabic">
         
         <link rel="stylesheet" href="{{ mix('css/app.css', 'assets/build') }}">
 
         <script src="{{ mix('js/app.js', 'assets/build') }}"></script>
     </head>
-    <body>
+    <body class="font-roboto">
         @yield('body')
     </body>
 </html>
